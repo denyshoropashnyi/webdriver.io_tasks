@@ -6,10 +6,6 @@ class LogInPage {
         return ('https://github.com/login');
     }
 
-    get pageHeading() {
-        return ($('//h1[text()="Create your account"]'));
-    }
-
     get userNameInput() {
         return $('[id="login_field"]');
     }
@@ -30,8 +26,13 @@ class LogInPage {
         return ('GZnVXne46VGJvj4');
     }
 
+    get accountEmail() {
+        return ('xikina8739@whmailtop.com');
+    }
 
-
+    get passResetLink() {
+        return $('a[href="/password_reset"]');
+    }
 
 }
 

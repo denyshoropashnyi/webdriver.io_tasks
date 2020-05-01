@@ -14,8 +14,12 @@ class Mixins {
         return expect(val).toBeDisplayed();
     }
 
-    setRandomString() {
-        return Math.random().toString(36).slice(-10);
+    checkIfElementHasText(el, val) {
+        return expect(el).toHaveText(val);
+    }
+
+    setRandomNumbers() {
+        return Math.random().toString().slice(-15);
     }
 
 }
