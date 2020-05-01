@@ -1,6 +1,7 @@
 'use strict';
 
 const assert = require('assert');
+const mixins = require('../');
 const mainPage = require('../pages/main.page');
 
 describe('lesson #27_hometask - Horopashnyi', () => {
