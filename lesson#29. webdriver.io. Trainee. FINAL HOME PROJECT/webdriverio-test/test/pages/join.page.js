@@ -1,7 +1,6 @@
 'use strict';
 
 class JoinPage {
-
     get pageUrl() {
         return ('https://github.com/join');
     }

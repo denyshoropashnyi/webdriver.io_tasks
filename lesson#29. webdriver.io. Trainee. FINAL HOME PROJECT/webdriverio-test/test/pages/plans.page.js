@@ -1,7 +1,6 @@
 'use strict';
 
 class PlansPage {
-
     get joinForFreeBtn() {
         return $('a[data-ga-click="Pricing topcarousel, click, text:Join for free; card:Free; ref_page:Pricing"]');
     }

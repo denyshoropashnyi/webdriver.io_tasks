@@ -1,7 +1,6 @@
 'use strict';
 
 class LogInPage {
-
     get pageUrl() {
         return ('https://github.com/login');
     }
@@ -33,7 +32,6 @@ class LogInPage {
     get passResetLink() {
         return $('a[href="/password_reset"]');
     }
-
 }
 
 module.exports = new LogInPage();

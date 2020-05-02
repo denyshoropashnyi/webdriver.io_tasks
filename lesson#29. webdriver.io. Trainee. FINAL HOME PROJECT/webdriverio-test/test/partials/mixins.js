@@ -1,7 +1,6 @@
 'use strict';
 
 class Mixins {
-
     setUrl(val) {
         return browser.url(val);
     }
@@ -21,7 +20,6 @@ class Mixins {
     setRandomNumbers() {
         return Math.random().toString().slice(-15);
     }
-
 }
 
 module.exports = new Mixins();

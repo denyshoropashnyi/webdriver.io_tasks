@@ -1,7 +1,6 @@
 'use strict';
 
 class SearchPage {
-
     get typescriptFilterListLink() {
         return $('a[href="/search?l=TypeScript&q=webdriverio&type=Repositories"]');
     }

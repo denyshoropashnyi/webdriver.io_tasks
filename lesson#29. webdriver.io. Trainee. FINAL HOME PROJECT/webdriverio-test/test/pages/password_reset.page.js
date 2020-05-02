@@ -1,7 +1,6 @@
 'use strict';
 
 class PasswordResetPage {
-
     get pageUrl() {
         return ('https://github.com/password_reset');
     }
@@ -29,11 +28,6 @@ class PasswordResetPage {
     get resetPassSuccessPopup() {
         return $('//p[contains(text(), "Check your email for a link to reset")]');
     }
-
-    // get mainPageLink() {
-    //     return $('a svg[class="octicon octicon-mark-github"]');
-    // delete!}
-
 }
 
 module.exports = new PasswordResetPage();

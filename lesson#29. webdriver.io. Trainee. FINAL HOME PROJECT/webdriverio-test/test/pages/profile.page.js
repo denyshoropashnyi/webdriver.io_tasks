@@ -1,7 +1,6 @@
 'use strict';
 
 class ProfilePage {
-
     get accountNickname() {
         return $('h1 span[itemprop="additionalName"]');
     }

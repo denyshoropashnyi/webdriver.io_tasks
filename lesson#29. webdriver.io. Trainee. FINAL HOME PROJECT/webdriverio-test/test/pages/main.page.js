@@ -20,7 +20,6 @@ class MainPage {
 
     get upperSignUpBtn() {
         return $('[data-ga-click="Signup, Attempt, location:home hero"]');
-        // return $('[data-experiment="homepage_signup_flow"] button[type="submit"]');
     }
 
     get lowerUserNameInput() {
@@ -42,7 +41,6 @@ class MainPage {
     get signInBtn() {
         return $('a[href="/login"]');
     }
-
 
     get dropDownMenuBtn() {
         return $('[aria-label="View profile and more"]');
@@ -92,7 +90,6 @@ class MainPage {
         return $('a[href="https://github.com/"]');
     }
 
-
     get howGithubEntepriseWorkBtn() {
         return $('a[href="/enterprise"][data-ga-click="Home Enterprise, click, text:Learn how GitHub Enterprise works"]');
     }
@@ -100,19 +97,6 @@ class MainPage {
     get careersFooterLink() {
         return $('a[href="/about/careers"]');
     }
-
-
-
-
-
-
-    // setMainUrl(val) {
-    //     return browser.url(val);
-    // }
-
-    // setUsername() {
-    //     const generateRandomString = (length = 6) => Math.random().toString(20).substr(2, 6);
-    // }
 }
 
 module.exports = new MainPage();

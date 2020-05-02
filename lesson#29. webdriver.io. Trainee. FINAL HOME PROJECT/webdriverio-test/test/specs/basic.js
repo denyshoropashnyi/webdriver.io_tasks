@@ -1,7 +1,7 @@
 'use strict';
 
-const mixins = require('../partials/mixins');
 const faker = require('faker');
+const mixins = require('../partials/mixins');
 const mainPage = require('../pages/main.page');
 const joinPage = require('../pages/join.page');
 const logInPage = require('../pages/logIn.page');
@@ -11,7 +11,7 @@ const plansPage = require('../pages/plans.page');
 const explorePage = require('../pages/explore.page');
 const searchPage = require('../pages/search.page');
 const enteprisePage = require('../pages/enteprise.page');
-const aboutPage = require('../pages/about.page');
+const careersPage = require('../pages/careers.page');
 
 
 describe('lesson #29_final_hometask - Horopashnyi', () => {
@@ -172,7 +172,6 @@ describe('lesson #29_final_hometask - Horopashnyi', () => {
 
 
     //the fifth test case start
-
 
     it('should submit empty input of Password reset input and close Reset password error pop-up', () => {
         passwordResetPage.resetPassBtn.click();
@@ -454,10 +453,22 @@ describe('lesson #29_final_hometask - Horopashnyi', () => {
     })
 
     it('should click on Open positions link', () => {
-        aboutPage.openPositionsLink.click();
+        careersPage.openPositionsLink.click();
         browser.pause(2222);
     })
 
+    it('should click on Open positions link', () => {
+        // browser.url('https://github.com/about/careers');
+        console.log(`  
+        First label is ${careersPage.firstLabel.getText()}
+        Second label is ${careersPage.secondLabel.getText()}
+        Third label is ${careersPage.thirdLabel.getText()}
+        Fourth label is ${careersPage.fourthLabel.getText()}
+        Fifth label is ${careersPage.fifthLabel.getText()}
+        Sixth label is ${careersPage.sixthLabel.getText()}
+        `)
+        browser.pause(1111);
+    })
 
     //the thirteenth test case end
 

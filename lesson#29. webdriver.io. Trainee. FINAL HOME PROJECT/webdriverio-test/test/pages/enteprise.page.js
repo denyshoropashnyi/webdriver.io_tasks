@@ -1,7 +1,6 @@
 'use strict';
 
 class EnteprisePage {
-
     get startFreeTrialBtn() {
         return $('[class="clearfix"] a[href="/organizations/enterprise_plan"]');
     }
@@ -29,7 +28,6 @@ class EnteprisePage {
     get emailPreferencesCheckBox() {
         return $('[id="all_emails"]');
     }
-
 
     get contactNameInput() {
         return $('[id="contact_request_name"]');
