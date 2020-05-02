@@ -457,8 +457,7 @@ describe('lesson #29_final_hometask - Horopashnyi', () => {
         browser.pause(2222);
     })
 
-    it('should click on Open positions link', () => {
-        // browser.url('https://github.com/about/careers');
+    it('should should output text from the labels to the terminal', () => {
         console.log(`  
         First label is ${careersPage.firstLabel.getText()}
         Second label is ${careersPage.secondLabel.getText()}
