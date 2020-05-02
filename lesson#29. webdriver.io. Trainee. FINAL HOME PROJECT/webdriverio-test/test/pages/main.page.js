@@ -1,7 +1,6 @@
 'use strict';
 
 class MainPage {
-
     get pageUrl() {
         return ('https://github.com/');
     }

@@ -17,11 +17,39 @@ exports.config = {
     // directory is where your package.json resides, so `wdio` will be called from there.
     //
     specs: [
-        './test/specs/**/*.js'
+        // './test/specs/**/*.js',
+        './test/specs/1main.signin.spec.js',
+        './test/specs/2footer.signin.spec.js',
+        './test/specs/3succes.login.spec.js',
+        './test/specs/4password.reset.spec.js',
+        './test/specs/5password.reset.failure.spec.js',
+        './test/specs/6password.reset.success.spec.js',
+        './test/specs/7dropdown.lists.spec.js',
+        './test/specs/8registration.free.spec.js',
+        './test/specs/9explore.topics.spec.js',
+        './test/specs/10search.input.spec.js',
+        './test/specs/11enterprise.cloud.reqistration.form.spec.js',
+        './test/specs/12enterprise.server.reqistration.form.spec.js',
+        './test/specs/13footer.careers.spec.js'
     ],
+    // Patterns to suites.
+    suites: {},
     // Patterns to exclude.
     exclude: [
         // 'path/to/excluded/files'
+        // './test/specs/1main.signin.spec.js',
+        // './test/specs/2footer.signin.spec.js',
+        // './test/specs/3succes.login.spec.js',
+        // './test/specs/4password.reset.spec.js',
+        // './test/specs/5password.reset.failure.spec.js',
+        // './test/specs/6password.reset.success.spec.js',
+        // './test/specs/7dropdown.lists.spec.js',
+        // './test/specs/8registration.free.spec.js',
+        // './test/specs/9explore.topics.spec.js',
+        // './test/specs/10search.input.spec.js',
+        // './test/specs/11enterprise.cloud.reqistration.form.spec.js',
+        // './test/specs/12enterprise.server.reqistration.form.spec.js',
+        // './test/specs/13footer.careers.spec.js'
     ],
     //
     // ============
@@ -50,7 +78,7 @@ exports.config = {
         // maxInstances can get overwritten per capability. So if you have an in-house Selenium
         // grid with only 5 firefox instances available you can make sure that not more than
         // 5 instances get started at a time.
-        maxInstances: 5,
+        maxInstances: 1,
         //
         browserName: 'chrome',
         // If outputDir is provided WebdriverIO can capture driver session logs

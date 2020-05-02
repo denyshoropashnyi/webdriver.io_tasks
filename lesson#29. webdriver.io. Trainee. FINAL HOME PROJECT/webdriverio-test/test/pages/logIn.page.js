@@ -18,15 +18,15 @@ class LogInPage {
     }
 
     get accountUsername() {
-        return ('testAccountForWebdriverIO');
+        return ('testAccountForFinalProject');
     }
 
     get accountPass() {
-        return ('GZnVXne46VGJvj4');
+        return ('TTJsnHNTWe7rJwh');
     }
 
     get accountEmail() {
-        return ('xikina8739@whmailtop.com');
+        return ('dafimow915@mailop7.com');
     }
 
     get passResetLink() {
