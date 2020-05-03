@@ -1,9 +1,7 @@
 'use strict';
 
 const mixins = require('../partials/mixins');
-const mainPage = require('../pages/main.page');
 const logInPage = require('../pages/logIn.page');
-const profilePage = require('../pages/profile.page');
 const passwordResetPage = require('../pages/password_reset.page');
 
 

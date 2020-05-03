@@ -7,16 +7,6 @@ const careersPage = require('../pages/careers.page');
 
 describe('careers labels text check ', () => {
 
-    // it('should return back to previous window', () => {
-    //     browser.back();
-    //     browser.pause(2222);
-    // })
-
-    // it('should click on Main page link and navigate to the Main page of github', () => {
-    //     mainPage.mainPageLink.click();
-    //     browser.pause(2222);
-    // })
-
     it('should navigate to the Main page of github', () => {
         mixins.setUrl(mainPage.pageUrl);
         browser.pause(2222);
